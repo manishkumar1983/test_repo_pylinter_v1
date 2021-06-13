@@ -2,7 +2,7 @@ on: [push, pull_request]
 
 jobs:
   python-lint:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     name: CI workflow
     steps:
     - name: checkout source repo
